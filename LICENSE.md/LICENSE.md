@@ -45,7 +45,7 @@ int main()
 ###### exercise1:
 ```
 
-![result](PIC/EX1.png)
+
 
 ```
 
@@ -91,7 +91,9 @@ int main()
 
 ###### exercise1:
 ```
+
 ![result](PIC/9466.png)
+
 ```
  ###### exercise1:
 ```
