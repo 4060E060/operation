@@ -92,7 +92,7 @@ int main()
 ###### exercise1:
 ```
 
-![result](PIC/9466.png)
+ ![result](PIC/9466.png)
 
 ```
  ###### exercise1:
