@@ -42,7 +42,12 @@ int main()
 
 
 ```
+###### exercise1:
+```
 
+![result](PIC/EX1.png)
+
+```
 ###### exercise1:
 ```
 
