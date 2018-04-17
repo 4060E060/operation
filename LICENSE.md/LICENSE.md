@@ -48,7 +48,26 @@ int main()
 ![result](PIC/EX1.png)
 
 ```
+
 ###### exercise1:
 ```
 
 ```
+
+###### exercise1:
+```
+
+```
+ ###### exercise1:
+```
+
+```
+ ###### exercise1:
+```
+
+```
+ ###### exercise1:
+```
+
+```
+ 
