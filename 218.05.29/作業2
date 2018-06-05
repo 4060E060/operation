@@ -149,3 +149,34 @@ int main()
 }
 
 ---
+
+
+
+---
+
+#include <iostream>
+#include <iomanip>
+#include <fstream>
+using namespace std;
+
+int main()
+{
+  ofstream output;
+
+  // Create a file
+  output.open("formattedscores.txt");
+
+  // Write two lines
+  output << setw(6) << "龍大大" << setw(2) << "9" << setw(6) << "Smith"
+    << " " << setw(4) << 90 << endl;
+  output << setw(6) << "阿泰大大" << setw(2) << "6" << setw(6) << "Jones"
+    << " " << setw(4) << 85;
+
+  output.close();
+
+  cout << "Done" << endl;
+
+  return 0;
+}
+
+---
