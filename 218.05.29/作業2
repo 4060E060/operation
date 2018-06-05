@@ -33,3 +33,38 @@ int main()
   } 
   
   ---
+  
+  
+  ---
+  
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+int main()
+{
+  ofstream output;
+
+ // Create a file
+ // output.open("d:///scores.txt");
+ 
+ output.open("d:///scores33.txt");
+ 
+ //output.open("scores.txt");
+
+  // Write lines
+  output << "John" << " " << "T" << " " << "Smith" 
+    << " " << 90 << endl;
+  output << "Eric" << " " << "K" << " " << "Jones" 
+    << " " << 85 << endl;
+  output << "天王" << " " << "G" << " " << "大大" 
+    << " " << 95 << endl;
+    
+  output.close();
+
+  cout << "Done" << endl;
+
+  return 0;
+}
+
+---
