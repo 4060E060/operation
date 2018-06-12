@@ -180,3 +180,40 @@ int main()
 }
 
 ---
+
+
+---
+
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+int main()
+{
+  ofstream output;
+
+ // Create a file
+ output.open("d:///scores.txt");
+ 
+ //output.open("c:///scores33.txt");
+ 
+ //output.open("scores.txt");
+
+  // Write lines
+  int a=0,b=1,c=2;
+  output << "John" << " " << "T" << " " << "Smith" 
+    << " " << a << endl;
+  output << "Eric" << " " << "K" << " " << "Jones" 
+    << " " << b << endl;
+  output << "天王" << " " << "G" << " " << "大大" 
+    << " " << c << endl;
+    
+  output.close();
+
+  cout << "Done" << endl;
+
+  return 0;
+}
+
+
+-----
